@@ -1,0 +1,543 @@
+[2020-12-20 23:03:26,398 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:03:26,421 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:03:26.398279, 等待结束时间：2020-12-20 23:03:26.421243, 等待耗时：0:00:00.022964
+[2020-12-20 23:03:26,421 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:03:26,426 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:03:32,460 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:03:32,498 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:03:32.460825, 等待结束时间：2020-12-20 23:03:32.498719, 等待耗时：0:00:00.037894
+[2020-12-20 23:03:32,498 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:03:32,503 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:03:39,009 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:03:39,028 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:03:39.009265, 等待结束时间：2020-12-20 23:03:39.028182, 等待耗时：0:00:00.018917
+[2020-12-20 23:03:39,028 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:03:39,034 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:03:39,107 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:03:39,108 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:03:39,125 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:03:39.108965, 等待结束时间：2020-12-20 23:03:39.125918, 等待耗时：0:00:00.016953
+[2020-12-20 23:03:39,126 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:03:39,132 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:03:39,190 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:03:39,190 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:03:39,208 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:03:39.191743, 等待结束时间：2020-12-20 23:03:39.208698, 等待耗时：0:00:00.016955
+[2020-12-20 23:03:39,208 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:03:39,215 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:03:47,256 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:03:47,276 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:03:47.256023, 等待结束时间：2020-12-20 23:03:47.276969, 等待耗时：0:00:00.020946
+[2020-12-20 23:03:47,276 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:03:47,281 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:03:56,069 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:03:56,089 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:03:56.069310, 等待结束时间：2020-12-20 23:03:56.089225, 等待耗时：0:00:00.019915
+[2020-12-20 23:03:56,090 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:03:56,096 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:04:02,638 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:04:02,687 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:04:02,687 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_点击新建考勤:等待('xpath', "//a[text()='新建考勤']")元素可见
+[2020-12-20 23:04:02,708 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='新建考勤']")元素可见成功，等待开始时间：2020-12-20 23:04:02.687701, 等待结束时间：2020-12-20 23:04:02.708645, 等待耗时：0:00:00.020944
+[2020-12-20 23:04:02,708 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_点击新建考勤: 查找('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:04:02,715 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_点击新建考勤：点击('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:04:05,795 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤:等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见
+[2020-12-20 23:04:06,330 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见成功，等待开始时间：2020-12-20 23:04:05.795257, 等待结束时间：2020-12-20 23:04:06.330586, 等待耗时：0:00:00.535329
+[2020-12-20 23:04:06,330 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤: 查找('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:04:06,336 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤：点击('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:04:09,419 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤:等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见
+[2020-12-20 23:04:09,437 keke INFO base_page_operate.py lineno:45]: 等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见成功，等待开始时间：2020-12-20 23:04:09.419632, 等待结束时间：2020-12-20 23:04:09.437582, 等待耗时：0:00:00.017950
+[2020-12-20 23:04:09,437 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤: 查找('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:04:09,443 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤：点击('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:04:12,516 keke INFO base_page_operate.py lineno:103]: 查找('xpath', "//div[@class='number-box']//span")元素
+[2020-12-20 23:04:12,516 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_获取考勤码:等待('xpath', "//div[@class='number-box']//span")元素可见
+[2020-12-20 23:04:13,048 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='number-box']//span")元素可见成功，等待开始时间：2020-12-20 23:04:12.516233, 等待结束时间：2020-12-20 23:04:13.048820, 等待耗时：0:00:00.532587
+[2020-12-20 23:04:14,059 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="0f4896a7-507c-4c8a-92bf-892755725f2b")>元素的文本
+[2020-12-20 23:04:14,069 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="0f4896a7-507c-4c8a-92bf-892755725f2b")>元素的文本：3
+[2020-12-20 23:04:14,069 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="a904d213-81aa-4a99-9fca-ae6a18de55b8")>元素的文本
+[2020-12-20 23:04:14,079 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="a904d213-81aa-4a99-9fca-ae6a18de55b8")>元素的文本：7
+[2020-12-20 23:04:14,079 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="af92bccb-88a5-4ae2-a267-a370d2084c7e")>元素的文本
+[2020-12-20 23:04:14,088 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="af92bccb-88a5-4ae2-a267-a370d2084c7e")>元素的文本：4
+[2020-12-20 23:04:14,088 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="7a02e63d-503e-433b-8aa6-5609f1614c4e")>元素的文本
+[2020-12-20 23:04:14,098 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="c912b3746837b9ef9ace5137d6406efd", element="7a02e63d-503e-433b-8aa6-5609f1614c4e")>元素的文本：3
+[2020-12-20 23:04:14,098 keke INFO test_01_attend.py lineno:47]: 老师新建考勤案例执行成功！
+[2020-12-20 23:04:25,245 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:04:25,275 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:04:25.245493, 等待结束时间：2020-12-20 23:04:25.274415, 等待耗时：0:00:00.028922
+[2020-12-20 23:04:25,275 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:04:25,280 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:04:31,317 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:04:31,335 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:04:31.317015, 等待结束时间：2020-12-20 23:04:31.335965, 等待耗时：0:00:00.018950
+[2020-12-20 23:04:31,335 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:04:31,341 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:04:38,528 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:04:38,546 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:04:38.528701, 等待结束时间：2020-12-20 23:04:38.546651, 等待耗时：0:00:00.017950
+[2020-12-20 23:04:38,546 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:04:38,552 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：408848063@qq.com
+[2020-12-20 23:04:38,617 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'408848063@qq.com'文本
+[2020-12-20 23:04:38,617 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:04:38,635 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:04:38.617464, 等待结束时间：2020-12-20 23:04:38.635416, 等待耗时：0:00:00.017952
+[2020-12-20 23:04:38,635 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:04:38,641 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:04:38,692 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:04:38,692 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:04:38,710 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:04:38.692263, 等待结束时间：2020-12-20 23:04:38.710214, 等待耗时：0:00:00.017951
+[2020-12-20 23:04:38,710 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:04:38,717 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:04:46,766 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:04:46,791 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:04:46.766832, 等待结束时间：2020-12-20 23:04:46.791764, 等待耗时：0:00:00.024932
+[2020-12-20 23:04:46,791 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:04:46,797 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:04:49,968 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_立即签到:等待('xpath', "//a[text()='立即签到']")元素可见
+[2020-12-20 23:04:50,744 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='立即签到']")元素可见成功，等待开始时间：2020-12-20 23:04:49.969726, 等待结束时间：2020-12-20 23:04:50.744066, 等待耗时：0:00:00.774340
+[2020-12-20 23:04:50,744 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_立即签到: 查找('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:04:50,750 keke INFO base_page_operate.py lineno:127]: 班集页面_签到弹窗_立即签到：点击('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:04:54,240 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_输入考勤码:等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见
+[2020-12-20 23:04:54,770 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见成功，等待开始时间：2020-12-20 23:04:54.240058, 等待结束时间：2020-12-20 23:04:54.770809, 等待耗时：0:00:00.530751
+[2020-12-20 23:04:54,770 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_输入考勤码: 查找('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素
+[2020-12-20 23:04:54,775 keke INFO base_page_operate.py lineno:158]: 班集页面_签到弹窗_输入考勤码：向('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素输入文本：3743
+[2020-12-20 23:04:54,805 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素成功输入'3743'文本
+[2020-12-20 23:04:54,805 keke INFO test_01_attend.py lineno:67]: 学生签到案例执行成功！
+[2020-12-20 23:05:05,953 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:05:05,975 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:05:05.953911, 等待结束时间：2020-12-20 23:05:05.975857, 等待耗时：0:00:00.021946
+[2020-12-20 23:05:05,975 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:05:05,982 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:05:12,020 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:05:12,041 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:05:12.020611, 等待结束时间：2020-12-20 23:05:12.041420, 等待耗时：0:00:00.020809
+[2020-12-20 23:05:12,041 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:05:12,047 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:05:18,381 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:05:18,400 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:05:18.381102, 等待结束时间：2020-12-20 23:05:18.400021, 等待耗时：0:00:00.018919
+[2020-12-20 23:05:18,400 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:05:18,407 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:05:18,488 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:05:18,488 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:05:18,506 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:05:18.488783, 等待结束时间：2020-12-20 23:05:18.506735, 等待耗时：0:00:00.017952
+[2020-12-20 23:05:18,506 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:05:18,512 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:05:18,571 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:05:18,571 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:05:18,587 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:05:18.571563, 等待结束时间：2020-12-20 23:05:18.587518, 等待耗时：0:00:00.015955
+[2020-12-20 23:05:18,588 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:05:18,592 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:05:26,637 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:05:26,659 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:05:26.637141, 等待结束时间：2020-12-20 23:05:26.658074, 等待耗时：0:00:00.020933
+[2020-12-20 23:05:26,659 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:05:26,665 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:05:35,769 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:05:35,797 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:05:35.769737, 等待结束时间：2020-12-20 23:05:35.796660, 等待耗时：0:00:00.026923
+[2020-12-20 23:05:35,797 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:05:35,802 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:05:42,448 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:05:42,487 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:05:42,487 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束考勤:等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见
+[2020-12-20 23:05:42,506 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见成功，等待开始时间：2020-12-20 23:05:42.487739, 等待结束时间：2020-12-20 23:05:42.506690, 等待耗时：0:00:00.018951
+[2020-12-20 23:05:42,507 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束考勤: 查找('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:05:42,513 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束考勤：点击('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:05:45,597 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤:等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见
+[2020-12-20 23:05:46,131 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见成功，等待开始时间：2020-12-20 23:05:45.597120, 等待结束时间：2020-12-20 23:05:46.131858, 等待耗时：0:00:00.534738
+[2020-12-20 23:05:46,131 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤: 查找('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:05:46,136 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤：点击('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:05:49,225 keke INFO test_01_attend.py lineno:95]: 老师结束考勤测试案例执行成功！
+[2020-12-20 23:06:00,427 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:06:00,448 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:06:00.427054, 等待结束时间：2020-12-20 23:06:00.448995, 等待耗时：0:00:00.021941
+[2020-12-20 23:06:00,448 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:06:00,456 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:06:06,493 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:06:06,513 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:06:06.493051, 等待结束时间：2020-12-20 23:06:06.513858, 等待耗时：0:00:00.020807
+[2020-12-20 23:06:06,513 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:06:06,518 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:06:12,872 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:06:12,891 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:06:12.872163, 等待结束时间：2020-12-20 23:06:12.891111, 等待耗时：0:00:00.018948
+[2020-12-20 23:06:12,891 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:06:12,897 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:06:12,962 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:06:12,962 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:06:12,980 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:06:12.962920, 等待结束时间：2020-12-20 23:06:12.980871, 等待耗时：0:00:00.017951
+[2020-12-20 23:06:12,980 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:06:12,985 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:06:13,038 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:06:13,038 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:06:13,056 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:06:13.038719, 等待结束时间：2020-12-20 23:06:13.056669, 等待耗时：0:00:00.017950
+[2020-12-20 23:06:13,056 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:06:13,062 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:06:21,117 keke INFO base_page_operate.py lineno:31]: 课程首页_点击用户头像:等待('xpath', "//a[@id='user']//img")元素可见
+[2020-12-20 23:06:21,135 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@id='user']//img")元素可见成功，等待开始时间：2020-12-20 23:06:21.117565, 等待结束时间：2020-12-20 23:06:21.135517, 等待耗时：0:00:00.017952
+[2020-12-20 23:06:21,135 keke INFO base_page_operate.py lineno:83]: 课程首页_点击用户头像: 查找('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:06:21,140 keke INFO base_page_operate.py lineno:127]: 课程首页_点击用户头像：点击('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:06:24,181 keke INFO base_page_operate.py lineno:31]: 课程首页_用户头像下拉项_点击个人设置:等待('xpath', "//a[text()='个人设置']")元素可见
+[2020-12-20 23:06:24,204 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='个人设置']")元素可见成功，等待开始时间：2020-12-20 23:06:24.181432, 等待结束时间：2020-12-20 23:06:24.204370, 等待耗时：0:00:00.022938
+[2020-12-20 23:06:24,204 keke INFO base_page_operate.py lineno:83]: 课程首页_用户头像下拉项_点击个人设置: 查找('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:06:24,211 keke INFO base_page_operate.py lineno:127]: 课程首页_用户头像下拉项_点击个人设置：点击('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:06:30,716 keke INFO base_page_operate.py lineno:31]: 个人设置页面_获取用户昵称:等待('xpath', "//h1[@class='uc-name']")元素可见
+[2020-12-20 23:06:30,735 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//h1[@class='uc-name']")元素可见成功，等待开始时间：2020-12-20 23:06:30.716153, 等待结束时间：2020-12-20 23:06:30.735101, 等待耗时：0:00:00.018948
+[2020-12-20 23:06:30,735 keke INFO base_page_operate.py lineno:83]: 个人设置页面_获取用户昵称: 查找('xpath', "//h1[@class='uc-name']")元素
+[2020-12-20 23:06:30,741 keke INFO base_page_operate.py lineno:190]: 个人设置页面_获取用户昵称：获取('xpath', "//h1[@class='uc-name']")元素的文本
+[2020-12-20 23:06:30,750 keke INFO base_page_operate.py lineno:194]: 成功获取('xpath', "//h1[@class='uc-name']")元素的文本：IDO
+[2020-12-20 23:06:30,750 keke INFO test_02_login.py lineno:39]: 老师角色登录课堂派_登录成功测试案例执行成功！
+[2020-12-20 23:06:42,025 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:06:42,049 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:06:42.025583, 等待结束时间：2020-12-20 23:06:42.049517, 等待耗时：0:00:00.023934
+[2020-12-20 23:06:42,049 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:06:42,056 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:06:48,094 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:06:48,131 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:06:48.094004, 等待结束时间：2020-12-20 23:06:48.131875, 等待耗时：0:00:00.037871
+[2020-12-20 23:06:48,132 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:06:48,137 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:06:54,494 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:06:54,512 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:06:54.494552, 等待结束时间：2020-12-20 23:06:54.512504, 等待耗时：0:00:00.017952
+[2020-12-20 23:06:54,512 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:06:54,519 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：408848063@qq.com
+[2020-12-20 23:06:54,582 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'408848063@qq.com'文本
+[2020-12-20 23:06:54,582 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:06:54,599 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:06:54.582317, 等待结束时间：2020-12-20 23:06:54.599272, 等待耗时：0:00:00.016955
+[2020-12-20 23:06:54,599 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:06:54,605 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:06:54,659 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:06:54,659 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:06:54,676 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:06:54.659112, 等待结束时间：2020-12-20 23:06:54.676068, 等待耗时：0:00:00.016956
+[2020-12-20 23:06:54,676 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:06:54,682 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:07:02,752 keke INFO base_page_operate.py lineno:31]: 课程首页_点击用户头像:等待('xpath', "//a[@id='user']//img")元素可见
+[2020-12-20 23:07:02,773 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@id='user']//img")元素可见成功，等待开始时间：2020-12-20 23:07:02.752255, 等待结束时间：2020-12-20 23:07:02.773190, 等待耗时：0:00:00.020935
+[2020-12-20 23:07:02,773 keke INFO base_page_operate.py lineno:83]: 课程首页_点击用户头像: 查找('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:07:02,779 keke INFO base_page_operate.py lineno:127]: 课程首页_点击用户头像：点击('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:07:05,822 keke INFO base_page_operate.py lineno:31]: 课程首页_用户头像下拉项_点击个人设置:等待('xpath', "//a[text()='个人设置']")元素可见
+[2020-12-20 23:07:05,845 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='个人设置']")元素可见成功，等待开始时间：2020-12-20 23:07:05.822278, 等待结束时间：2020-12-20 23:07:05.845215, 等待耗时：0:00:00.022937
+[2020-12-20 23:07:05,845 keke INFO base_page_operate.py lineno:83]: 课程首页_用户头像下拉项_点击个人设置: 查找('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:07:05,852 keke INFO base_page_operate.py lineno:127]: 课程首页_用户头像下拉项_点击个人设置：点击('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:07:12,305 keke INFO base_page_operate.py lineno:31]: 个人设置页面_获取用户昵称:等待('xpath', "//h1[@class='uc-name']")元素可见
+[2020-12-20 23:07:12,323 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//h1[@class='uc-name']")元素可见成功，等待开始时间：2020-12-20 23:07:12.305691, 等待结束时间：2020-12-20 23:07:12.323606, 等待耗时：0:00:00.017915
+[2020-12-20 23:07:12,323 keke INFO base_page_operate.py lineno:83]: 个人设置页面_获取用户昵称: 查找('xpath', "//h1[@class='uc-name']")元素
+[2020-12-20 23:07:12,329 keke INFO base_page_operate.py lineno:190]: 个人设置页面_获取用户昵称：获取('xpath', "//h1[@class='uc-name']")元素的文本
+[2020-12-20 23:07:12,338 keke INFO base_page_operate.py lineno:194]: 成功获取('xpath', "//h1[@class='uc-name']")元素的文本：Simple_Small
+[2020-12-20 23:07:12,338 keke INFO test_02_login.py lineno:39]: 学生角色登录课堂派_登录成功测试案例执行成功！
+[2020-12-20 23:24:03,384 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:24:03,411 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:24:03.384271, 等待结束时间：2020-12-20 23:24:03.411197, 等待耗时：0:00:00.026926
+[2020-12-20 23:24:03,412 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:24:03,419 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:24:09,458 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:24:09,476 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:24:09.458868, 等待结束时间：2020-12-20 23:24:09.476812, 等待耗时：0:00:00.017944
+[2020-12-20 23:24:09,477 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:24:09,482 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:24:15,860 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:24:15,878 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:24:15.860916, 等待结束时间：2020-12-20 23:24:15.878869, 等待耗时：0:00:00.017953
+[2020-12-20 23:24:15,878 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:24:15,884 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:24:15,956 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:24:15,956 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:24:15,973 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:24:15.956661, 等待结束时间：2020-12-20 23:24:15.973616, 等待耗时：0:00:00.016955
+[2020-12-20 23:24:15,973 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:24:15,979 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:24:16,031 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:24:16,032 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:24:16,049 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:24:16.032459, 等待结束时间：2020-12-20 23:24:16.049416, 等待耗时：0:00:00.016957
+[2020-12-20 23:24:16,049 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:24:16,054 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:24:24,094 keke INFO base_page_operate.py lineno:31]: 课程首页_点击用户头像:等待('xpath', "//a[@id='user']//img")元素可见
+[2020-12-20 23:24:24,116 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@id='user']//img")元素可见成功，等待开始时间：2020-12-20 23:24:24.094616, 等待结束时间：2020-12-20 23:24:24.116563, 等待耗时：0:00:00.021947
+[2020-12-20 23:24:24,117 keke INFO base_page_operate.py lineno:83]: 课程首页_点击用户头像: 查找('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:24:24,123 keke INFO base_page_operate.py lineno:127]: 课程首页_点击用户头像：点击('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:24:27,158 keke INFO base_page_operate.py lineno:31]: 课程首页_用户头像下拉项_点击个人设置:等待('xpath', "//a[text()='个人设置']")元素可见
+[2020-12-20 23:24:27,178 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='个人设置']")元素可见成功，等待开始时间：2020-12-20 23:24:27.158119, 等待结束时间：2020-12-20 23:24:27.178064, 等待耗时：0:00:00.019945
+[2020-12-20 23:24:27,179 keke INFO base_page_operate.py lineno:83]: 课程首页_用户头像下拉项_点击个人设置: 查找('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:24:27,186 keke INFO base_page_operate.py lineno:127]: 课程首页_用户头像下拉项_点击个人设置：点击('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:24:33,712 keke INFO base_page_operate.py lineno:31]: 个人设置页面_获取用户昵称:等待('xpath', "//h1[@class='uc-name']")元素可见
+[2020-12-20 23:24:33,729 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//h1[@class='uc-name']")元素可见成功，等待开始时间：2020-12-20 23:24:33.712732, 等待结束时间：2020-12-20 23:24:33.729686, 等待耗时：0:00:00.016954
+[2020-12-20 23:24:33,729 keke INFO base_page_operate.py lineno:83]: 个人设置页面_获取用户昵称: 查找('xpath', "//h1[@class='uc-name']")元素
+[2020-12-20 23:24:33,735 keke INFO base_page_operate.py lineno:190]: 个人设置页面_获取用户昵称：获取('xpath', "//h1[@class='uc-name']")元素的文本
+[2020-12-20 23:24:33,746 keke INFO base_page_operate.py lineno:194]: 成功获取('xpath', "//h1[@class='uc-name']")元素的文本：IDO
+[2020-12-20 23:24:33,746 keke INFO test_01_login.py lineno:39]: 老师角色登录课堂派_登录成功测试案例执行成功！
+[2020-12-20 23:24:45,297 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:24:45,323 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:24:45.298322, 等待结束时间：2020-12-20 23:24:45.323220, 等待耗时：0:00:00.024898
+[2020-12-20 23:24:45,323 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:24:45,329 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:24:51,359 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:24:51,379 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:24:51.359580, 等待结束时间：2020-12-20 23:24:51.379526, 等待耗时：0:00:00.019946
+[2020-12-20 23:24:51,379 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:24:51,385 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:24:57,755 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:24:57,773 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:24:57.755339, 等待结束时间：2020-12-20 23:24:57.773100, 等待耗时：0:00:00.017761
+[2020-12-20 23:24:57,773 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:24:57,777 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：408848063@qq.com
+[2020-12-20 23:24:57,843 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'408848063@qq.com'文本
+[2020-12-20 23:24:57,843 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:24:57,861 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:24:57.843910, 等待结束时间：2020-12-20 23:24:57.861863, 等待耗时：0:00:00.017953
+[2020-12-20 23:24:57,861 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:24:57,865 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:24:57,917 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:24:57,917 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:24:57,934 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:24:57.917714, 等待结束时间：2020-12-20 23:24:57.934671, 等待耗时：0:00:00.016957
+[2020-12-20 23:24:57,934 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:24:57,941 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:25:05,981 keke INFO base_page_operate.py lineno:31]: 课程首页_点击用户头像:等待('xpath', "//a[@id='user']//img")元素可见
+[2020-12-20 23:25:06,028 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@id='user']//img")元素可见成功，等待开始时间：2020-12-20 23:25:05.981711, 等待结束时间：2020-12-20 23:25:06.028541, 等待耗时：0:00:00.046830
+[2020-12-20 23:25:06,028 keke INFO base_page_operate.py lineno:83]: 课程首页_点击用户头像: 查找('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:25:06,034 keke INFO base_page_operate.py lineno:127]: 课程首页_点击用户头像：点击('xpath', "//a[@id='user']//img")元素
+[2020-12-20 23:25:09,060 keke INFO base_page_operate.py lineno:31]: 课程首页_用户头像下拉项_点击个人设置:等待('xpath', "//a[text()='个人设置']")元素可见
+[2020-12-20 23:25:09,081 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='个人设置']")元素可见成功，等待开始时间：2020-12-20 23:25:09.060681, 等待结束时间：2020-12-20 23:25:09.081624, 等待耗时：0:00:00.020943
+[2020-12-20 23:25:09,081 keke INFO base_page_operate.py lineno:83]: 课程首页_用户头像下拉项_点击个人设置: 查找('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:25:09,087 keke INFO base_page_operate.py lineno:127]: 课程首页_用户头像下拉项_点击个人设置：点击('xpath', "//a[text()='个人设置']")元素
+[2020-12-20 23:25:15,550 keke INFO base_page_operate.py lineno:31]: 个人设置页面_获取用户昵称:等待('xpath', "//h1[@class='uc-name']")元素可见
+[2020-12-20 23:25:15,567 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//h1[@class='uc-name']")元素可见成功，等待开始时间：2020-12-20 23:25:15.550458, 等待结束时间：2020-12-20 23:25:15.567413, 等待耗时：0:00:00.016955
+[2020-12-20 23:25:15,568 keke INFO base_page_operate.py lineno:83]: 个人设置页面_获取用户昵称: 查找('xpath', "//h1[@class='uc-name']")元素
+[2020-12-20 23:25:15,573 keke INFO base_page_operate.py lineno:190]: 个人设置页面_获取用户昵称：获取('xpath', "//h1[@class='uc-name']")元素的文本
+[2020-12-20 23:25:15,583 keke INFO base_page_operate.py lineno:194]: 成功获取('xpath', "//h1[@class='uc-name']")元素的文本：Simple_Small
+[2020-12-20 23:25:15,583 keke INFO test_01_login.py lineno:39]: 学生角色登录课堂派_登录成功测试案例执行成功！
+[2020-12-20 23:25:26,695 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:25:26,721 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:25:26.695530, 等待结束时间：2020-12-20 23:25:26.720435, 等待耗时：0:00:00.024905
+[2020-12-20 23:25:26,721 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:25:26,727 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:25:32,761 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:25:32,782 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:25:32.761860, 等待结束时间：2020-12-20 23:25:32.782805, 等待耗时：0:00:00.020945
+[2020-12-20 23:25:32,782 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:25:32,787 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:25:39,116 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:25:39,134 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:25:39.116852, 等待结束时间：2020-12-20 23:25:39.134804, 等待耗时：0:00:00.017952
+[2020-12-20 23:25:39,134 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:25:39,139 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:25:39,205 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:25:39,205 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:25:39,222 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:25:39.205615, 等待结束时间：2020-12-20 23:25:39.222570, 等待耗时：0:00:00.016955
+[2020-12-20 23:25:39,222 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:25:39,227 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:25:39,278 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:25:39,279 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:25:39,295 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:25:39.279418, 等待结束时间：2020-12-20 23:25:39.295375, 等待耗时：0:00:00.015957
+[2020-12-20 23:25:39,295 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:25:39,301 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:25:47,342 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:25:47,363 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:25:47.342330, 等待结束时间：2020-12-20 23:25:47.363265, 等待耗时：0:00:00.020935
+[2020-12-20 23:25:47,363 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:25:47,368 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:25:56,432 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:25:56,452 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:25:56.432262, 等待结束时间：2020-12-20 23:25:56.452197, 等待耗时：0:00:00.019935
+[2020-12-20 23:25:56,452 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:25:56,458 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:26:03,106 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:26:03,134 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:26:03,135 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_点击新建考勤:等待('xpath', "//a[text()='新建考勤']")元素可见
+[2020-12-20 23:26:03,158 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='新建考勤']")元素可见成功，等待开始时间：2020-12-20 23:26:03.135260, 等待结束时间：2020-12-20 23:26:03.158200, 等待耗时：0:00:00.022940
+[2020-12-20 23:26:03,158 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_点击新建考勤: 查找('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:26:03,164 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_点击新建考勤：点击('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:26:06,247 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤:等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见
+[2020-12-20 23:26:06,781 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见成功，等待开始时间：2020-12-20 23:26:06.247511, 等待结束时间：2020-12-20 23:26:06.781083, 等待耗时：0:00:00.533572
+[2020-12-20 23:26:06,781 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤: 查找('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:26:06,786 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤：点击('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:26:09,868 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤:等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见
+[2020-12-20 23:26:09,887 keke INFO base_page_operate.py lineno:45]: 等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见成功，等待开始时间：2020-12-20 23:26:09.868556, 等待结束时间：2020-12-20 23:26:09.887507, 等待耗时：0:00:00.018951
+[2020-12-20 23:26:09,888 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤: 查找('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:26:09,894 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤：点击('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:26:12,966 keke INFO base_page_operate.py lineno:103]: 查找('xpath', "//div[@class='number-box']//span")元素
+[2020-12-20 23:26:12,966 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_获取考勤码:等待('xpath', "//div[@class='number-box']//span")元素可见
+[2020-12-20 23:26:13,498 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='number-box']//span")元素可见成功，等待开始时间：2020-12-20 23:26:12.966867, 等待结束时间：2020-12-20 23:26:13.498951, 等待耗时：0:00:00.532084
+[2020-12-20 23:26:14,507 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="6263c2f3-a563-4e62-bd0d-7eaa0d8eca39")>元素的文本
+[2020-12-20 23:26:14,517 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="6263c2f3-a563-4e62-bd0d-7eaa0d8eca39")>元素的文本：9
+[2020-12-20 23:26:14,517 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="d64e3540-61cd-4fff-9138-f4cdafd4ae9b")>元素的文本
+[2020-12-20 23:26:14,531 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="d64e3540-61cd-4fff-9138-f4cdafd4ae9b")>元素的文本：9
+[2020-12-20 23:26:14,531 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="30b3051e-53d3-4a19-9093-7dd75fca1298")>元素的文本
+[2020-12-20 23:26:14,543 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="30b3051e-53d3-4a19-9093-7dd75fca1298")>元素的文本：3
+[2020-12-20 23:26:14,543 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="09dbc80b-8089-47f8-9d89-3c03a703b543")>元素的文本
+[2020-12-20 23:26:14,553 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="ba0080c302cf07afadc6f9e39530ecf7", element="09dbc80b-8089-47f8-9d89-3c03a703b543")>元素的文本：0
+[2020-12-20 23:26:14,553 keke INFO test_02_attend.py lineno:47]: 老师新建考勤案例执行成功！
+[2020-12-20 23:26:26,036 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:26:26,058 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:26:26.036816, 等待结束时间：2020-12-20 23:26:26.058755, 等待耗时：0:00:00.021939
+[2020-12-20 23:26:26,058 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:26:26,064 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:26:32,102 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:26:32,121 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:26:32.102238, 等待结束时间：2020-12-20 23:26:32.121181, 等待耗时：0:00:00.018943
+[2020-12-20 23:26:32,121 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:26:32,127 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:26:38,468 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:26:38,485 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:26:38.468755, 等待结束时间：2020-12-20 23:26:38.484713, 等待耗时：0:00:00.015958
+[2020-12-20 23:26:38,485 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:26:38,490 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：408848063@qq.com
+[2020-12-20 23:26:38,556 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'408848063@qq.com'文本
+[2020-12-20 23:26:38,556 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:26:38,573 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:26:38.556521, 等待结束时间：2020-12-20 23:26:38.573476, 等待耗时：0:00:00.016955
+[2020-12-20 23:26:38,573 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:26:38,579 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:26:38,634 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:26:38,634 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:26:38,652 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:26:38.634312, 等待结束时间：2020-12-20 23:26:38.652266, 等待耗时：0:00:00.017954
+[2020-12-20 23:26:38,652 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:26:38,659 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:26:46,699 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:26:46,724 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:26:46.699783, 等待结束时间：2020-12-20 23:26:46.724717, 等待耗时：0:00:00.024934
+[2020-12-20 23:26:46,724 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:26:46,731 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:26:49,896 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_立即签到:等待('xpath', "//a[text()='立即签到']")元素可见
+[2020-12-20 23:26:50,838 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='立即签到']")元素可见成功，等待开始时间：2020-12-20 23:26:49.896257, 等待结束时间：2020-12-20 23:26:50.838101, 等待耗时：0:00:00.941844
+[2020-12-20 23:26:50,839 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_立即签到: 查找('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:26:50,846 keke INFO base_page_operate.py lineno:127]: 班集页面_签到弹窗_立即签到：点击('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:26:54,353 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_输入考勤码:等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见
+[2020-12-20 23:26:54,888 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见成功，等待开始时间：2020-12-20 23:26:54.353345, 等待结束时间：2020-12-20 23:26:54.888064, 等待耗时：0:00:00.534719
+[2020-12-20 23:26:54,888 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_输入考勤码: 查找('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素
+[2020-12-20 23:26:54,896 keke INFO base_page_operate.py lineno:158]: 班集页面_签到弹窗_输入考勤码：向('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素输入文本：9930
+[2020-12-20 23:26:54,926 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素成功输入'9930'文本
+[2020-12-20 23:26:54,926 keke INFO test_02_attend.py lineno:67]: 学生签到案例执行成功！
+[2020-12-20 23:27:06,290 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:27:06,314 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:27:06.290238, 等待结束时间：2020-12-20 23:27:06.314170, 等待耗时：0:00:00.023932
+[2020-12-20 23:27:06,314 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:27:06,320 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:27:12,356 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:27:12,376 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:27:12.356682, 等待结束时间：2020-12-20 23:27:12.376627, 等待耗时：0:00:00.019945
+[2020-12-20 23:27:12,376 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:27:12,381 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:27:19,581 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:27:19,598 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:27:19.581951, 等待结束时间：2020-12-20 23:27:19.598906, 等待耗时：0:00:00.016955
+[2020-12-20 23:27:19,598 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:27:19,603 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:27:19,670 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:27:19,670 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:27:19,688 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:27:19.670713, 等待结束时间：2020-12-20 23:27:19.688666, 等待耗时：0:00:00.017953
+[2020-12-20 23:27:19,688 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:27:19,693 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:27:19,743 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:27:19,743 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:27:19,759 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:27:19.743520, 等待结束时间：2020-12-20 23:27:19.759478, 等待耗时：0:00:00.015958
+[2020-12-20 23:27:19,759 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:27:19,765 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:27:27,811 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:27:27,832 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:27:27.811402, 等待结束时间：2020-12-20 23:27:27.832338, 等待耗时：0:00:00.020936
+[2020-12-20 23:27:27,832 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:27:27,837 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:27:36,974 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:27:36,996 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:27:36.974415, 等待结束时间：2020-12-20 23:27:36.996322, 等待耗时：0:00:00.021907
+[2020-12-20 23:27:36,996 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:27:37,002 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:27:43,698 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:27:43,723 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:27:43,723 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束考勤:等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见
+[2020-12-20 23:27:43,743 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见成功，等待开始时间：2020-12-20 23:27:43.723622, 等待结束时间：2020-12-20 23:27:43.743569, 等待耗时：0:00:00.019947
+[2020-12-20 23:27:43,743 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束考勤: 查找('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:27:43,749 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束考勤：点击('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:27:46,833 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤:等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见
+[2020-12-20 23:27:47,369 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见成功，等待开始时间：2020-12-20 23:27:46.833444, 等待结束时间：2020-12-20 23:27:47.369087, 等待耗时：0:00:00.535643
+[2020-12-20 23:27:47,370 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤: 查找('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:27:47,376 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤：点击('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:27:50,453 keke INFO test_02_attend.py lineno:95]: 老师结束考勤测试案例执行成功！
+[2020-12-20 23:56:07,345 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:56:07,374 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:56:07.346236, 等待结束时间：2020-12-20 23:56:07.373118, 等待耗时：0:00:00.026882
+[2020-12-20 23:56:07,374 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:56:07,381 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:56:13,425 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:56:13,445 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:56:13.425792, 等待结束时间：2020-12-20 23:56:13.445729, 等待耗时：0:00:00.019937
+[2020-12-20 23:56:13,445 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:56:13,451 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:56:19,826 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:56:19,842 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:56:19.826006, 等待结束时间：2020-12-20 23:56:19.842961, 等待耗时：0:00:00.016955
+[2020-12-20 23:56:19,842 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:56:19,848 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:56:19,921 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:56:19,921 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:56:19,940 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:56:19.922747, 等待结束时间：2020-12-20 23:56:19.940699, 等待耗时：0:00:00.017952
+[2020-12-20 23:56:19,940 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:56:19,945 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:56:20,001 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:56:20,001 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:56:20,018 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:56:20.002535, 等待结束时间：2020-12-20 23:56:20.018490, 等待耗时：0:00:00.015955
+[2020-12-20 23:56:20,018 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:56:20,023 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:56:28,065 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:56:28,086 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:56:28.065615, 等待结束时间：2020-12-20 23:56:28.086429, 等待耗时：0:00:00.020814
+[2020-12-20 23:56:28,086 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:56:28,093 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:56:36,852 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:56:36,875 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:56:36.852937, 等待结束时间：2020-12-20 23:56:36.875685, 等待耗时：0:00:00.022748
+[2020-12-20 23:56:36,875 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:56:36,880 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:56:43,464 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:56:43,493 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:56:43,493 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_点击新建考勤:等待('xpath', "//a[text()='新建考勤']")元素可见
+[2020-12-20 23:56:43,514 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='新建考勤']")元素可见成功，等待开始时间：2020-12-20 23:56:43.493617, 等待结束时间：2020-12-20 23:56:43.513564, 等待耗时：0:00:00.019947
+[2020-12-20 23:56:43,514 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_点击新建考勤: 查找('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:56:43,519 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_点击新建考勤：点击('xpath', "//a[text()='新建考勤']")元素
+[2020-12-20 23:56:46,600 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤:等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见
+[2020-12-20 23:56:47,139 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素可见成功，等待开始时间：2020-12-20 23:56:46.600885, 等待结束时间：2020-12-20 23:56:47.139480, 等待耗时：0:00:00.538595
+[2020-12-20 23:56:47,139 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤: 查找('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:56:47,144 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击数字考勤：点击('xpath', "//div[@class='iconarea digit']//div[@class='icons']")元素
+[2020-12-20 23:56:50,227 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤:等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见
+[2020-12-20 23:56:50,246 keke INFO base_page_operate.py lineno:45]: 等待('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素可见成功，等待开始时间：2020-12-20 23:56:50.227751, 等待结束时间：2020-12-20 23:56:50.246699, 等待耗时：0:00:00.018948
+[2020-12-20 23:56:50,246 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤: 查找('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:56:50,252 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_新建考勤弹框_点击开始考勤：点击('xpath', '//div[@id="new-perform"]//a[text()="开始考勤"]')元素
+[2020-12-20 23:56:53,326 keke INFO base_page_operate.py lineno:103]: 查找('xpath', "//div[@class='number-box']//span")元素
+[2020-12-20 23:56:53,326 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_获取考勤码:等待('xpath', "//div[@class='number-box']//span")元素可见
+[2020-12-20 23:56:53,881 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='number-box']//span")元素可见成功，等待开始时间：2020-12-20 23:56:53.326106, 等待结束时间：2020-12-20 23:56:53.881621, 等待耗时：0:00:00.555515
+[2020-12-20 23:56:54,891 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="51a0652f-73d0-4472-b14e-ffbeb0d7a294")>元素的文本
+[2020-12-20 23:56:54,902 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="51a0652f-73d0-4472-b14e-ffbeb0d7a294")>元素的文本：8
+[2020-12-20 23:56:54,902 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="04732eb7-e7a2-42e8-986b-8416eb569054")>元素的文本
+[2020-12-20 23:56:54,912 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="04732eb7-e7a2-42e8-986b-8416eb569054")>元素的文本：5
+[2020-12-20 23:56:54,913 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="b0bc67cf-e0dd-411c-92cb-509779ee031f")>元素的文本
+[2020-12-20 23:56:54,922 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="b0bc67cf-e0dd-411c-92cb-509779ee031f")>元素的文本：9
+[2020-12-20 23:56:54,922 keke INFO base_page_operate.py lineno:190]: 班集页面_考勤弹窗_考勤窗口_获取1位考勤数字：获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="da2f4776-d57a-4c25-8075-8e2c5504fe57")>元素的文本
+[2020-12-20 23:56:54,932 keke INFO base_page_operate.py lineno:194]: 成功获取<selenium.webdriver.remote.webelement.WebElement (session="04090ff249aa3b59045f5e89fed4d4fd", element="da2f4776-d57a-4c25-8075-8e2c5504fe57")>元素的文本：8
+[2020-12-20 23:56:54,932 keke INFO test_02_attend.py lineno:46]: 老师新建考勤案例执行成功！
+[2020-12-20 23:57:06,641 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:57:06,665 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:57:06.642848, 等待结束时间：2020-12-20 23:57:06.665783, 等待耗时：0:00:00.022935
+[2020-12-20 23:57:06,665 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:57:06,671 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:57:12,706 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:57:12,729 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:57:12.706489, 等待结束时间：2020-12-20 23:57:12.729216, 等待耗时：0:00:00.022727
+[2020-12-20 23:57:12,729 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:57:12,735 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:57:19,121 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:57:19,138 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:57:19.121511, 等待结束时间：2020-12-20 23:57:19.138464, 等待耗时：0:00:00.016953
+[2020-12-20 23:57:19,138 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:57:19,143 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：408848063@qq.com
+[2020-12-20 23:57:19,209 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'408848063@qq.com'文本
+[2020-12-20 23:57:19,209 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:57:19,227 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:57:19.209275, 等待结束时间：2020-12-20 23:57:19.227227, 等待耗时：0:00:00.017952
+[2020-12-20 23:57:19,227 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:57:19,233 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:57:19,285 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:57:19,286 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:57:19,303 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:57:19.286069, 等待结束时间：2020-12-20 23:57:19.303023, 等待耗时：0:00:00.016954
+[2020-12-20 23:57:19,303 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:57:19,309 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:57:27,349 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:57:27,370 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:57:27.349110, 等待结束时间：2020-12-20 23:57:27.370051, 等待耗时：0:00:00.020941
+[2020-12-20 23:57:27,370 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:57:27,375 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:57:30,543 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_立即签到:等待('xpath', "//a[text()='立即签到']")元素可见
+[2020-12-20 23:57:31,536 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='立即签到']")元素可见成功，等待开始时间：2020-12-20 23:57:30.543840, 等待结束时间：2020-12-20 23:57:31.536204, 等待耗时：0:00:00.992364
+[2020-12-20 23:57:31,536 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_立即签到: 查找('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:57:31,542 keke INFO base_page_operate.py lineno:127]: 班集页面_签到弹窗_立即签到：点击('xpath', "//a[text()='立即签到']")元素
+[2020-12-20 23:57:35,061 keke INFO base_page_operate.py lineno:31]: 班集页面_签到弹窗_输入考勤码:等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见
+[2020-12-20 23:57:35,608 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素可见成功，等待开始时间：2020-12-20 23:57:35.061410, 等待结束时间：2020-12-20 23:57:35.608705, 等待耗时：0:00:00.547295
+[2020-12-20 23:57:35,608 keke INFO base_page_operate.py lineno:83]: 班集页面_签到弹窗_输入考勤码: 查找('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素
+[2020-12-20 23:57:35,613 keke INFO base_page_operate.py lineno:158]: 班集页面_签到弹窗_输入考勤码：向('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素输入文本：8598
+[2020-12-20 23:57:35,641 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@class='vc-n-input j_modalAuthInput']")元素成功输入'8598'文本
+[2020-12-20 23:57:35,641 keke INFO test_02_attend.py lineno:66]: 学生签到案例执行成功！
+[2020-12-20 23:57:46,823 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-20 23:57:46,847 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-20 23:57:46.823686, 等待结束时间：2020-12-20 23:57:46.846624, 等待耗时：0:00:00.022938
+[2020-12-20 23:57:46,847 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:57:46,854 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-20 23:57:52,889 keke INFO base_page_operate.py lineno:31]: 登录页面_点击登录:等待('xpath', "//a[@class='login']")元素可见
+[2020-12-20 23:57:52,909 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[@class='login']")元素可见成功，等待开始时间：2020-12-20 23:57:52.889873, 等待结束时间：2020-12-20 23:57:52.909810, 等待耗时：0:00:00.019937
+[2020-12-20 23:57:52,909 keke INFO base_page_operate.py lineno:83]: 登录页面_点击登录: 查找('xpath', "//a[@class='login']")元素
+[2020-12-20 23:57:52,915 keke INFO base_page_operate.py lineno:127]: 登录页面_点击登录：点击('xpath', "//a[@class='login']")元素
+[2020-12-20 23:57:59,291 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码名:等待('xpath', "//input[@name='account']")元素可见
+[2020-12-20 23:57:59,309 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='account']")元素可见成功，等待开始时间：2020-12-20 23:57:59.291354, 等待结束时间：2020-12-20 23:57:59.308277, 等待耗时：0:00:00.016923
+[2020-12-20 23:57:59,309 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码名: 查找('xpath', "//input[@name='account']")元素
+[2020-12-20 23:57:59,314 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码名：向('xpath', "//input[@name='account']")元素输入文本：1303845892@qq.com
+[2020-12-20 23:57:59,384 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='account']")元素成功输入'1303845892@qq.com'文本
+[2020-12-20 23:57:59,384 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_账号登录_输入密码:等待('xpath', "//input[@name='pass']")元素可见
+[2020-12-20 23:57:59,401 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//input[@name='pass']")元素可见成功，等待开始时间：2020-12-20 23:57:59.384075, 等待结束时间：2020-12-20 23:57:59.401028, 等待耗时：0:00:00.016953
+[2020-12-20 23:57:59,401 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_账号登录_输入密码: 查找('xpath', "//input[@name='pass']")元素
+[2020-12-20 23:57:59,407 keke INFO base_page_operate.py lineno:158]: 登录页面_登录窗口_账号登录_输入密码：向('xpath', "//input[@name='pass']")元素输入文本：nmb_python
+[2020-12-20 23:57:59,464 keke INFO base_page_operate.py lineno:161]: ('xpath', "//input[@name='pass']")元素成功输入'nmb_python'文本
+[2020-12-20 23:57:59,464 keke INFO base_page_operate.py lineno:31]: 登录页面_登录窗口_点击登录:等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见
+[2020-12-20 23:57:59,482 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素可见成功，等待开始时间：2020-12-20 23:57:59.464858, 等待结束时间：2020-12-20 23:57:59.482810, 等待耗时：0:00:00.017952
+[2020-12-20 23:57:59,482 keke INFO base_page_operate.py lineno:83]: 登录页面_登录窗口_点击登录: 查找('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:57:59,488 keke INFO base_page_operate.py lineno:127]: 登录页面_登录窗口_点击登录：点击('xpath', "//div[@class='padding-cont pt-login']//a[@class='btn-btn']")元素
+[2020-12-20 23:58:07,548 keke INFO base_page_operate.py lineno:31]: 课程首页_点击'Renee Brooks'课程:等待('xpath', "//a[text()='Renee Brooks']")元素可见
+[2020-12-20 23:58:07,590 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[text()='Renee Brooks']")元素可见成功，等待开始时间：2020-12-20 23:58:07.548460, 等待结束时间：2020-12-20 23:58:07.590337, 等待耗时：0:00:00.041877
+[2020-12-20 23:58:07,590 keke INFO base_page_operate.py lineno:83]: 课程首页_点击'Renee Brooks'课程: 查找('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:58:07,596 keke INFO base_page_operate.py lineno:127]: 课程首页_点击'Renee Brooks'课程：点击('xpath', "//a[text()='Renee Brooks']")元素
+[2020-12-20 23:58:16,733 keke INFO base_page_operate.py lineno:31]: 班集页面_点击考勤:等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见
+[2020-12-20 23:58:16,754 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素可见成功，等待开始时间：2020-12-20 23:58:16.733358, 等待结束时间：2020-12-20 23:58:16.754295, 等待耗时：0:00:00.020937
+[2020-12-20 23:58:16,754 keke INFO base_page_operate.py lineno:83]: 班集页面_点击考勤: 查找('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:58:16,759 keke INFO base_page_operate.py lineno:127]: 班集页面_点击考勤：点击('xpath', "//i[@class='iconfont iconkaoqin']/following-sibling::span")元素
+[2020-12-20 23:58:23,444 keke INFO base_page_operate.py lineno:261]: 等待并切换到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:58:23,472 keke INFO base_page_operate.py lineno:265]: 成功切换进入到('xpath', "//iframe[@id='layui-layer-content1']") iframe框架
+[2020-12-20 23:58:23,472 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束考勤:等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见
+[2020-12-20 23:58:23,495 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='number-attend']//a[text()='结束']")元素可见成功，等待开始时间：2020-12-20 23:58:23.472675, 等待结束时间：2020-12-20 23:58:23.495615, 等待耗时：0:00:00.022940
+[2020-12-20 23:58:23,495 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束考勤: 查找('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:58:23,501 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束考勤：点击('xpath', "//div[@id='number-attend']//a[text()='结束']")元素
+[2020-12-20 23:58:26,586 keke INFO base_page_operate.py lineno:31]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤:等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见
+[2020-12-20 23:58:27,121 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素可见成功，等待开始时间：2020-12-20 23:58:26.586221, 等待结束时间：2020-12-20 23:58:27.121788, 等待耗时：0:00:00.535567
+[2020-12-20 23:58:27,121 keke INFO base_page_operate.py lineno:83]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤: 查找('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:58:27,128 keke INFO base_page_operate.py lineno:127]: 班集页面_考勤弹窗_考勤窗口_结束并完成考勤弹窗_结束考勤：点击('xpath', "//div[@id='end-attend']//a[@class='sure active']")元素
+[2020-12-20 23:58:30,204 keke INFO test_02_attend.py lineno:94]: 老师结束考勤测试案例执行成功！

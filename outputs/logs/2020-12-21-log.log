@@ -1,0 +1,55 @@
+[2020-12-21 00:05:21,411 keke INFO base_page_operate.py lineno:31]: 登录页面_关闭弹窗:等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见
+[2020-12-21 00:05:21,718 keke INFO base_page_operate.py lineno:45]: 等待('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素可见成功，等待开始时间：2020-12-21 00:05:21.411039, 等待结束时间：2020-12-21 00:05:21.718694, 等待耗时：0:00:00.307655
+[2020-12-21 00:05:21,719 keke INFO base_page_operate.py lineno:83]: 登录页面_关闭弹窗: 查找('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-21 00:05:21,724 keke INFO base_page_operate.py lineno:127]: 登录页面_关闭弹窗：点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素
+[2020-12-21 00:05:36,740 keke ERROR base_page_operate.py lineno:133]: 点击('xpath', "//a[contains(@class, 'ayui-layer-close layui-layer-close2')]")元素失败，错误信息：
+Traceback (most recent call last):
+  File "D:\py33\py33_ui_framework\common\base_page_operate.py", line 131, in click_ele
+    ele.click()
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+
+[2020-12-21 00:05:48,766 keke ERROR base_page_operate.py lineno:336]: 登录页面页面截图保存失败，错误信息：
+Traceback (most recent call last):
+  File "D:\py33\py33_ui_framework\common\base_page_operate.py", line 131, in click_ele
+    ele.click()
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\py33\py33_ui_framework\common\base_page_operate.py", line 333, in save_page_screenshot
+    self.driver.save_screenshot(save_path)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python 3.7\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+

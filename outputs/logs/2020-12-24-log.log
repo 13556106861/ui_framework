@@ -1,0 +1,15 @@
+[2020-12-24 16:59:15,018 keke INFO request_handle.py lineno:31]: 请求url：https://www.ketangpai.com/UserApi/login
+[2020-12-24 16:59:15,018 keke INFO request_handle.py lineno:32]: 请求方法：post
+[2020-12-24 16:59:15,018 keke INFO request_handle.py lineno:38]: 请求数据：{'email': '1303845892@qq.com', 'password': 'nmb_python', 'remember': 0}
+[2020-12-24 16:59:15,378 keke INFO request_handle.py lineno:31]: 请求url：https://www.ketangpai.com/CourseApi/lists
+[2020-12-24 16:59:15,378 keke INFO request_handle.py lineno:32]: 请求方法：get
+[2020-12-24 16:59:15,378 keke INFO request_handle.py lineno:35]: 请求数据：None
+[2020-12-24 16:59:15,799 keke INFO api.py lineno:53]: 设置MDAwMDAwMDAwMLWGvZWHz82y为Data类的courseid类属性值
+[2020-12-24 16:59:15,799 keke INFO request_handle.py lineno:31]: 请求url：https://www.ketangpai.com/AttenceApi/getNotFinishAttence
+[2020-12-24 16:59:15,799 keke INFO request_handle.py lineno:32]: 请求方法：get
+[2020-12-24 16:59:15,799 keke INFO request_handle.py lineno:35]: 请求数据：{'courseid': 'MDAwMDAwMDAwMLWGvZWHz82y'}
+[2020-12-24 16:59:15,878 keke INFO api.py lineno:76]: 设置MDAwMDAwMDAwMLOcy5eIuclrhbVyoQ为Data类的id类属性值
+[2020-12-24 16:59:15,878 keke INFO request_handle.py lineno:31]: 请求url：https://www.ketangpai.com/AttenceApi/overAttence
+[2020-12-24 16:59:15,878 keke INFO request_handle.py lineno:32]: 请求方法：post
+[2020-12-24 16:59:15,878 keke INFO request_handle.py lineno:38]: 请求数据：{'id': 'MDAwMDAwMDAwMLOcy5eIuclrhbVyoQ'}
+[2020-12-24 16:59:16,049 keke INFO api.py lineno:95]: 已结束id为：MDAwMDAwMDAwMLOcy5eIuclrhbVyoQ的考勤
